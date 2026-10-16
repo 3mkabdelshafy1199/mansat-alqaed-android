@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#142747" />
+  <meta name="description" content="منصة القائد التعليمية للتاريخ: دروس مبسطة، مراجعات، واختبارات تفاعلية." />
+  <title>منصة القائد | التاريخ بأسلوب مختلف</title>
+  <link rel="stylesheet" href="style.css" />
+<meta name="theme-color" content="#101c3a">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="منصة القائد - الرئيسية">
+      <span class="brand-mark">ق</span>
+      <span><strong>منصة القائد</strong><small>التاريخ بأسلوب مختلف</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+    <nav id="mainNav">
+      <a href="#home">الرئيسية</a>
+      <a href="#courses">الدروس</a>
+      <a href="#quiz">اختبر نفسك</a>
+      <a href="#progress">تقدمي</a>
+    </nav>
+    <a class="nav-cta" href="#courses">ابدأ التعلّم <span>←</span></a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> رحلتك لفهم التاريخ تبدأ هنا</div>
+        <h1>افهم الماضي،<br><span>وقُد مستقبلك.</span></h1>
+        <p>التاريخ مش مجرد تواريخ تحفظها؛ دي حكايات وأسباب ونتائج. اتعلّم بطريقة منظمة، راجع بذكاء، واختبر فهمك خطوة بخطوة.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#courses">اكتشف الدروس <span>←</span></a>
+          <a class="button secondary" href="#quiz">جرّب اختبارًا سريعًا</a>
+        </div>
+        <div class="hero-trust">
+          <div class="avatar-stack"><span>ط</span><span>ت</span><span>ق</span></div>
+          <div><strong>خطوة صغيرة كل يوم</strong><small>تعلّم على قدّك وبالسرعة المناسبة ليك</small></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="رسم زخرفي مستوحى من التاريخ">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-sun"></div>
+        <div class="art-column column-one"><i></i><b></b><em></em></div>
+        <div class="art-column column-two"><i></i><b></b><em></em></div>
+        <div class="art-column column-three"><i></i><b></b><em></em></div>
+        <div class="art-book"><span></span><span></span><span></span></div>
+        <div class="art-label label-top">رحلة عبر الزمن <span>✦</span></div>
+        <div class="art-label label-bottom"><span class="label-icon">⌛</span><span><b>التاريخ بين إيديك</b><small>افهم • اربط • تذكّر</small></span></div>
+        <div class="art-star">✦</div>
+      </div>
+    </section>
+
+    <section class="stats section" aria-label="مميزات المنصة">
+      <div><span class="stat-icon">◈</span><span><strong>دروس منظمة</strong><small>منهج مرتب خطوة بخطوة</small></span></div>
+      <div><span class="stat-icon">✓</span><span><strong>اختبارات تفاعلية</strong><small>اعرف مستواك فورًا</small></span></div>
+      <div><span class="stat-icon">↗</span><span><strong>تابع تقدمك</strong><small>شوف اللي أنجزته</small></span></div>
+    </section>
+
+    <section class="section courses-section" id="courses">
+      <div class="section-heading">
+        <div><span class="eyebrow">ابدأ رحلتك</span><h2>دروس التاريخ</h2><p>اختار درس، اقرأ الملخص، وبعدها اختبر فهمك.</p></div>
+        <label class="search-box"><span>⌕</span><input id="courseSearch" type="search" placeholder="ابحث عن درس..." /></label>
+      </div>
+      <div class="course-grid" id="courseGrid">
+        <article class="course-card" data-title="مصر تحت الحكم العثماني">
+          <div class="course-art art-ottoman"><span class="course-number">01</span><div class="arch">☼</div><span class="art-caption">١٥١٧ م</span></div>
+          <div class="course-content"><div class="course-meta"><span>الوحدة الأولى</span><span>ملخص + اختبار</span></div><h3>مصر تحت الحكم العثماني</h3><p>تعرّف على أوضاع مصر السياسية والإدارية بعد الفتح العثماني.</p><button class="text-button open-lesson" data-lesson="ottoman">افتح الدرس <span>←</span></button></div>
+        </article>
+        <article class="course-card" data-title="الحملة الفرنسية على مصر">
+          <div class="course-art art-french"><span class="course-number">02</span><div class="pyramid">△</div><span class="art-caption">١٧٩٨ م</span></div>
+          <div class="course-content"><div class="course-meta"><span>الوحدة الثانية</span><span>ملخص + اختبار</span></div><h3>الحملة الفرنسية على مصر</h3><p>اكتشف أسباب الحملة وأهم أحداثها وتأثيرها على مصر.</p><button class="text-button open-lesson" data-lesson="french">افتح الدرس <span>←</span></button></div>
+        </article>
+        <article class="course-card" data-title="بناء الدولة الحديثة">
+          <div class="course-art art-modern"><span class="course-number">03</span><div class="modern-symbol">✧</div><span class="art-caption">١٨٠٥ م</span></div>
+          <div class="course-content"><div class="course-meta"><span>الوحدة الثالثة</span><span>ملخص + اختبار</span></div><h3>بناء الدولة الحديثة</h3><p>افهم بدايات بناء الدولة الحديثة في عهد محمد علي.</p><button class="text-button open-lesson" data-lesson="modern">افتح الدرس <span>←</span></button></div>
+        </article>
+      </div>
+      <p class="demo-note">ملاحظة: الدروس الحالية نماذج تجريبية وليست بديلًا عن كتابك أو منهجك الرسمي.</p>
+    </section>
+
+    <section class="lesson-panel section hidden" id="lessonPanel">
+      <div class="section-heading"><div><span class="eyebrow" id="lessonUnit">الوحدة</span><h2 id="lessonTitle">عنوان الدرس</h2></div><button class="button secondary" id="closeLesson">إغلاق الدرس ✕</button></div>
+      <div class="lesson-layout">
+        <article class="lesson-main">
+          <div class="lesson-banner"><span>📜</span><div><small>ملخص الدرس</small><h3 id="lessonBannerTitle">عنوان الدرس</h3></div></div>
+          <p id="lessonDescription"></p>
+          <h3>أهم النقاط</h3><ul id="lessonPoints"></ul>
+          <div class="lesson-callout"><strong>نصيحة القائد</strong><p>حاول تربط كل حدث بالسبب اللي أدّى إليه والنتيجة اللي ترتبت عليه، بدل ما تحفظ التاريخ وحده.</p></div>
+          <button class="button primary" id="lessonQuizButton">اختبر فهمك في الدرس ←</button>
+          <button class="button secondary" id="markComplete">علّم الدرس كمكتمل ✓</button>
+        </article>
+        <aside class="lesson-side"><h3>خريطة رحلتك</h3><div class="side-step active"><span>1</span><div><b>اقرأ الملخص</b><small>افهم الفكرة الأساسية</small></div></div><div class="side-step"><span>2</span><div><b>راجع النقاط</b><small>ركّز على الأسباب والنتائج</small></div></div><div class="side-step"><span>3</span><div><b>حل الاختبار</b><small>تأكد من فهمك</small></div></div></aside>
+      </div>
+    </section>
+
+    <section class="quiz-section section" id="quiz">
+      <div class="quiz-intro"><span class="eyebrow">تحدّي القائد</span><h2>اختبر معلوماتك التاريخية</h2><p>سؤال سريع، وإجابة فورية مع تفسير يساعدك تتعلّم من كل محاولة.</p><div class="quiz-badges"><span>◈ اختيار من متعدد</span><span>✓ تصحيح فوري</span></div></div>
+      <div class="quiz-card">
+        <div class="quiz-card-top"><span id="quizTopic">سؤال تاريخي عام</span><span class="question-count" id="questionCount">السؤال 1 من 3</span></div>
+        <div class="quiz-progress"><span id="quizProgressBar"></span></div>
+        <h3 id="questionText">في أي عام بدأت الحملة الفرنسية على مصر؟</h3>
+        <div class="answers" id="answerOptions"></div>
+        <div id="quizFeedback" class="quiz-feedback hidden" role="status"></div>
+        <div class="quiz-controls"><button class="button primary" id="checkAnswer" disabled>تأكيد الإجابة</button><button class="button secondary hidden" id="nextQuestion">السؤال التالي ←</button></div>
+      </div>
+    </section>
+
+    <section class="progress-section section" id="progress">
+      <div class="section-heading"><div><span class="eyebrow">خطوة بخطوة</span><h2>تقدّمك الدراسي</h2><p>تابع الدروس اللي خلصتها من خلال هذا الجهاز.</p></div><span class="progress-big" id="progressPercent">0%</span></div>
+      <div class="progress-track"><span id="overallProgress"></span></div>
+      <div class="progress-details"><span id="progressLessons">أنجزت 0 من 3 دروس</span><span id="quizScore">نتيجة آخر اختبار: —</span></div>
+      <div class="progress-list" id="progressList"></div>
+      <p class="demo-note">التقدم محفوظ محليًا على نفس المتصفح. المزامنة بين الأجهزة وحسابات الطلاب تحتاج قاعدة بيانات وتسجيل دخول.</p>
+    </section>
+
+    <section class="final-cta section">
+      <div><span class="eyebrow">مستعد تبدأ؟</span><h2>خلي كل درس خطوة لقدّام.</h2><p>افهم التاريخ، راجع بانتظام، واحتفل بكل تقدم تحققه.</p></div>
+      <a class="button gold-button" href="#courses">ابدأ أول درس <span>←</span></a>
+      <span class="cta-decoration">ق</span>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">ق</span><span><strong>منصة القائد</strong><small>التاريخ بأسلوب مختلف</small></span></a><p>© <span id="year"></span> منصة القائد — نموذج أولي قابل للتطوير.</p><a href="#home">العودة للأعلى ↑</a></footer>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./service-worker.js").catch(() => {});
+  });
+}
+</script>
+</body>
+</html>
